@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frango na Brasa | Atendimento e Cardápio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #b30000, #ffcc66);
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 80%;
+      max-width: 400px;
+      margin: 0 auto 40px;
+    }
+
+    .btn {
+      background: #fff;
+      color: #b30000;
+      border: none;
+      padding: 15px;
+      font-size: 1.1em;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: all 0.2s ease-in-out;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: #ffe6b3;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 0 auto 40px;
+      border-radius: 20px;
+      padding: 20px;
+      width: 90%;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    section h2 {
+      color: #fff;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+      font-size: 1.05em;
+    }
+
+    .item span {
+      color: #fff;
+    }
+
+    footer {
+      margin: 40px 0 20px;
+      font-size: 0.9em;
+      color: #fff;
+      opacity: 0.9;
+    }
+
+    .logo {
+      font-size: 3em;
+      color: #fff;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo"><i class="fa-solid fa-drumstick-bite"></i></div>
+  <h1>Frango na Brasa</h1>
+  <p>🍗 Bem-vindo ao sabor que conquista!</p>
+
+  <div class="buttons">
+    <a href="https://wa.me/5544997080939?text=Olá!%20Quero%20fazer%20um%20pedido." class="btn">
+      <i class="fa-brands fa-whatsapp"></i> Atendimento no WhatsApp
+    </a>
+    <a href="#cardapio" class="btn">
+      <i class="fa-solid fa-utensils"></i> Ver Cardápio
+    </a>
+    <a href="https://maps.google.com/?q=Rua+Ministro+Oliveira+Salazar+4947,+Umuarama" class="btn">
+      <i class="fa-solid fa-location-dot"></i> Como Chegar
+    </a>
+    <a href="https://www.instagram.com/" class="btn">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+  </div>
+
+  <!-- Cardápio -->
+  <section id="cardapio">
+    <h2>🍱 Marmitas</h2>
+    <div class="item"><span>Marmita Tradicional</span><span>R$ 20,00</span></div>
+    <div class="item"><span>Marmita Média</span><span>R$ 25,00</span></div>
+    <div class="item"><span>Marmita Grande</span><span>R$ 30,00</span></div>
+
+    <h2>🔥 Assados na Brasa</h2>
+    <div class="item"><span>Frango Inteiro Assado</span><span>R$ 35,00</span></div>
+    <div class="item"><span>Meio Frango</span><span>R$ 20,00</span></div>
+    <div class="item"><span>Espetinho (Bovino, Frango, Linguiça)</span><span>R$ 8,00</span></div>
+
+    <h2>🥤 Bebidas</h2>
+    <div class="item"><span>Refrigerante Lata</span><span>R$ 6,00</span></div>
+    <div class="item"><span>Refrigerante 2L</span><span>R$ 12,00</span></div>
+    <div class="item"><span>Água Mineral</span><span>R$ 4,00</span></div>
+  </section>
+
+  <footer>
+    © 2025 Frango na Brasa — Feito com ❤️ em Umuarama
+  </footer>
+
+</body>
+</html>
